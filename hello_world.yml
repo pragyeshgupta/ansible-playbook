@@ -1,6 +1,6 @@
 ---
   - name: hello world example
-    hosts: localhost
+    hosts: root
     tasks:
       - name: create a file with the content 'hello world'
         copy:
